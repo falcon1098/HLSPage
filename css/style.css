@@ -10245,7 +10245,9 @@ textarea.form-control {
   .displaymarcell{
     display: none;
   }
-
+  .ondas{
+    display: block !important;
+  }
 }
 @media (max-width: 767px){
 .subheading {
