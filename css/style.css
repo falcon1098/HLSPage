@@ -10262,3 +10262,7 @@ textarea.form-control {
     padding-bottom: 50%
   }
   }
+  .acordion-title{
+    color: #666; 
+    font-weight: bold;
+  }
