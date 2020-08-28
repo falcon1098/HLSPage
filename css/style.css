@@ -8078,8 +8078,13 @@ h1, h2, h3, h4, h5,
     }
     .wa-icon{
       margin-right: 0 !important;
-      /*content: url('../rrss/Whatsapp.png') !important;*/
-    } }
+      content: url('../rrss/Whatsapp\ blanco.png') !important;
+      margin-bottom: 300px;
+    }
+    .comoyoquiera3{
+      margin-top: 150px;
+    }
+  }
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
@@ -8178,6 +8183,11 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light.scrolled {
         color: blanchedalmond !important;
     }
+    .titlecarrusel{
+      color: #fff !important;
+      letter-spacing: 2px !important;
+      font-weight: 900 !important;
+    }
   }
 
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
@@ -8240,10 +8250,10 @@ h1, h2, h3, h4, h5,
       content: url('../rrss/Whatsapp.png');
     }
     @media (max-width: 991.98px) {
-      .ftco-navbar-light.scrolled .nav-item > .nav-link {
+      /*.ftco-navbar-light.scrolled .nav-item > .nav-link {
         padding-left: 0 !important;
         padding-right: 0 !important;
-        padding-bottom: 20px !important; } }
+        padding-bottom: 20px !important; } */}
     .ftco-navbar-light.scrolled .nav-item.active > a {
       color: #3431de !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
@@ -8279,8 +8289,8 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase;
       font-size: 16px;
       letter-spacing: .1em; }
-    .ftco-navbar-light.scrolled .nav-link {
-      color: rgb(37, 25, 167) !important; }
+    /*.ftco-navbar-light.scrolled .nav-link {
+      color: rgb(37, 25, 167) !important; }*/
       .ftco-navbar-light.scrolled .nav-link.active {
         color: grey !important; }
     .ftco-navbar-light.scrolled.awake {
