@@ -8011,7 +8011,9 @@ body {
   font-size: 20px;
   line-height: 1.8;
   font-weight: 400;
-  color: #666666; }
+  color: #666666; 
+  text-align: justify;
+}
   body.menu-show {
     overflow: hidden;
     position: fixed;
