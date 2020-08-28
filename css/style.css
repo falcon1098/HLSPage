@@ -3802,7 +3802,9 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   /* border: 1px solid rgba(0, 0, 0, 0.125); */
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  background: -prefix-linear-gradient(top, rgb(127, 165, 206), rgb(16,38,106)); 
+  background: linear-gradient(to bottom, rgb(127, 165, 206), rgb(16,38,106));  }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
