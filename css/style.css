@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -3801,7 +3801,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -8975,7 +8975,7 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .ftco-services .nav-link-wrap {
       margin-bottom: -60px; 
-      z-index: 1; } }
+      z-index: 0; } }
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {
       background: rgb(79,137,200);
@@ -9956,6 +9956,16 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+  .acordeonmarcell{
+    display: none;
+  }
+  .displaymarcell{
+    display: block;
+  }
+
+  .rotatemarcell{
+    transform: rotate(180deg);
+  }
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -10151,6 +10161,12 @@ textarea.form-control {
     width: 100%;
   }
 }
+@media(max-width:635px){
+  .displaymarcell2{
+    display: none;
+  }
+}
+
 
 .touch-manipulation{
   touch-action: manipulation !important;
@@ -10185,8 +10201,8 @@ textarea.form-control {
 }
 @media(max-width:767px){
   .icons-div {
-    height: 300px
-}
+    height: 85px
+  }
   .izziicon{
     margin-left: 5% !important;
   }
@@ -10223,6 +10239,13 @@ textarea.form-control {
   .slider-text{
     background: #fff;
   }
+  .acordeonmarcell{
+    display: block;
+  }
+  .displaymarcell{
+    display: none;
+  }
+
 }
 @media (max-width: 767px){
 .subheading {
