@@ -10248,6 +10248,9 @@ textarea.form-control {
   .ondas{
     display: block !important;
   }
+  .ftco-section-2{
+    display: none;
+  }
 }
 @media (max-width: 767px){
 .subheading {
