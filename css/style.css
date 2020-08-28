@@ -3804,7 +3804,7 @@ input[type="button"].btn-block {
   /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem;
   background: -prefix-linear-gradient(top, rgb(127, 165, 206), rgb(16,38,106)); 
-  background: linear-gradient(to bottom, rgb(127, 165, 206), rgb(16,38,106));  }
+  background:  linear-gradient(to bottom, rgb(136, 157, 186), rgb(231, 238,237));}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -6470,7 +6470,7 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important; }
+  margin-bottom: 5.5rem !important; }
 
 .ml-2,
 .mx-2 {
@@ -9171,11 +9171,11 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 4em 0;
+  padding: 6em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 1em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -10203,7 +10203,7 @@ textarea.form-control {
 }
 @media(max-width:767px){
   .icons-div {
-    height: 85px
+    height: 150px
   }
   .izziicon{
     margin-left: 5% !important;
