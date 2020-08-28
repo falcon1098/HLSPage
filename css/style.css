@@ -10270,3 +10270,10 @@ textarea.form-control {
     color: #666; 
     font-weight: bold;
   }
+  .sub-acordion{
+    color: white;
+    margin-left: 15%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+  }
