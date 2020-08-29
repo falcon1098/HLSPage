@@ -10255,6 +10255,9 @@ textarea.form-control {
   .ftco-section-2{
     display: none;
   }
+  .icons-div{
+    display: none;
+  }
 }
 @media (max-width: 767px){
 .subheading {
@@ -10272,8 +10275,11 @@ textarea.form-control {
   }
   .sub-acordion{
     color: white;
-    margin-left: 15%;
+    margin-left: 20%;
+    margin-top: 15%;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
+    position: fixed;
+    z-index: 1;
   }
