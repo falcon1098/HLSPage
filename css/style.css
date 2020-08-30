@@ -8588,7 +8588,9 @@ h1, h2, h3, h4, h5,
           display: none; } }
       @media (max-width: 767.98px) {
         .owl-carousel.home-slider .owl-dots {
-          bottom: 5px; } }
+          bottom: 5px;
+          display: none;
+         } }
       .owl-carousel.home-slider .owl-dots .owl-dot {
         width: 10px;
         height: 10px;
@@ -10273,7 +10275,7 @@ textarea.form-control {
     text-align: center;
   }
   .wavycarrusel{
-    /*height: 3px;*/
+    height: 3px;
   }
 }
 @media (max-width: 767px){
@@ -10292,4 +10294,11 @@ textarea.form-control {
   .acordion-title{
     color: #666; 
     font-weight: bold;
+  }
+
+  .custom-onda{
+    height: 9%;
+    width: 100%;
+    position: absolute;
+    top: 92%;
   }

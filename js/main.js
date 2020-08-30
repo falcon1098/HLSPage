@@ -205,6 +205,7 @@
 		$('.collapse').removeClass('show');
 	});
 	$('.fabri-btn').on('click', function(){
+		$("#fabri-collpase").collapse('show');	
 		$('.nav-link-2').removeClass('active');
 		$('#fabrica-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
@@ -218,6 +219,7 @@
 		$('#azure-tab').addClass('active show');
 	})
 	$('.personal-btn').on('click', function(){
+		$("#personal-collapse").collapse('show');
 		$('.nav-link-2').removeClass('active');
 		$('#personal-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
