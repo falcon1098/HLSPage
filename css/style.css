@@ -8147,7 +8147,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #3452a5;
+        /* background: #3452a5; */
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8296,7 +8296,7 @@ h1, h2, h3, h4, h5,
     /*.ftco-navbar-light.scrolled .nav-link {
       color: rgb(37, 25, 167) !important; }*/
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: grey !important; }
+        color: #1b0a7c !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -10282,6 +10282,9 @@ textarea.form-control {
   .ftco-navbar-light .navbar-nav .now {
     padding-bottom: 50%
   }
+  .ftco-navbar-light.scrolled .nav-link.active {
+    color: #fff !important;
+    font-size: 26px; }
   }
   .acordion-title{
     color: #666; 

@@ -154,9 +154,19 @@
 
 	};
 	carousel();
+	$('#servicios-link').on('click', function(){
+		$('.nav-link').removeClass('active');
+		$('#servicios-link').addClass('active');
+	})
+	$('#contacto-link').on('click', function(){
+		$('.nav-link').removeClass('active');
+		$('#contacto-link').addClass('active');
+	})
 	$('#azure-link').on('click', function(){
 		$("#azure-collpase").collapse('show');
 		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
+		$('#azure-link').addClass('active');
 		$('#azure-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#azure-tab').addClass('active show');
@@ -164,24 +174,26 @@
 	$('#personal-link').on('click', function(){
 		$("#personal-collpase").collapse('show');
 		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
+		$('#personal-link').addClass('active');
 		$('#personal-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#personal-tab').addClass('active show');
 	})
 	$('#fabrica-link').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#fabrica-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#fabrica-tab').addClass('active show');
 	})
 	$('#data-link').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#data-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#data-tab').addClass('active show');
 	})
 	$('#sales-link').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#sales-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#sales-tab').addClass('active show');
@@ -190,20 +202,20 @@
 		$('.collapse').removeClass('show');
 	});
 	$('.fabri-btn').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#fabrica-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#fabrica-tab').addClass('active show');
 	})
 	$('.azure-btn').on('click', function(){
 		$("#azure-collpase").collapse('show');
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#azure-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#azure-tab').addClass('active show');
 	})
 	$('.personal-btn').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('.nav-link-2').removeClass('active');
 		$('#personal-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#personal-tab').addClass('active show');
