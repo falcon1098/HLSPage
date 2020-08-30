@@ -10272,6 +10272,9 @@ textarea.form-control {
   .foothermovil{
     text-align: center;
   }
+  .wavycarrusel{
+    /*height: 3px;*/
+  }
 }
 @media (max-width: 767px){
 .subheading {
