@@ -10269,6 +10269,9 @@ textarea.form-control {
   .icons-div{
     display: none;
   }
+  .foothermovil{
+    text-align: center;
+  }
 }
 @media (max-width: 767px){
 .subheading {
