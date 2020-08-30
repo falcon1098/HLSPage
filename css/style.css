@@ -8073,7 +8073,7 @@ h1, h2, h3, h4, h5,
     }
     .ftco-navbar-light {
       background: #fff !important;
-      position: relative;
+      position: absolute;
       top: 0;
       padding-top: 0;
       padding-bottom: 0;
@@ -10275,7 +10275,7 @@ textarea.form-control {
     text-align: center;
   }
   .wavycarrusel{
-    height: 3px;
+    /* height: 3px; */
   }
 }
 @media (max-width: 767px){
