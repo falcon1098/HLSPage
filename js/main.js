@@ -155,55 +155,58 @@
 	};
 	carousel();
 	$('#azure-link').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#azure-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#azure-tab').addClass('active show')
+		$("#azure-collpase").collapse('show');
+		$('.nav-link').removeClass('active');
+		$('#azure-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#azure-tab').addClass('active show');
 	})
 	$('#personal-link').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#personal-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#personal-tab').addClass('active show')
+		$("#personal-collpase").collapse('show');
+		$('.nav-link').removeClass('active');
+		$('#personal-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#personal-tab').addClass('active show');
 	})
 	$('#fabrica-link').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#fabrica-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#fabrica-tab').addClass('active show')
+		$('.nav-link').removeClass('active');
+		$('#fabrica-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#fabrica-tab').addClass('active show');
 	})
 	$('#data-link').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#data-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#data-tab').addClass('active show')
+		$('.nav-link').removeClass('active');
+		$('#data-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#data-tab').addClass('active show');
 	})
 	$('#sales-link').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#sales-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#sales-tab').addClass('active show')
+		$('.nav-link').removeClass('active');
+		$('#sales-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#sales-tab').addClass('active show');
 	})
 	$('.nav-link').on('click',function(){
-		$('.collapse').removeClass('show')
+		$('.collapse').removeClass('show');
 	});
 	$('.fabri-btn').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#fabrica-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#fabrica-tab').addClass('active show')
+		$('.nav-link').removeClass('active');
+		$('#fabrica-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#fabrica-tab').addClass('active show');
 	})
 	$('.azure-btn').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#azure-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#azure-tab').addClass('active show')
+		$("#azure-collpase").collapse('show');
+		$('.nav-link').removeClass('active');
+		$('#azure-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#azure-tab').addClass('active show');
 	})
 	$('.personal-btn').on('click', function(){
-		$('.nav-link').removeClass('active')
-		$('#personal-nav-link').addClass('active')
-		$('.tab-pane').removeClass('active show')
-		$('#personal-tab').addClass('active show')
+		$('.nav-link').removeClass('active');
+		$('#personal-nav-link').addClass('active');
+		$('.tab-pane').removeClass('active show');
+		$('#personal-tab').addClass('active show');
 	})
 
 	$('nav .dropdown').hover(function(){
