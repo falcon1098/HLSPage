@@ -155,7 +155,9 @@
 	};
 	carousel();
 	$('#servicios-link').on('click', function(){
-		$('.nav-link').removeClass('active');
+		$('#contacto-link').removeClass('active');
+		$('#azure-link').removeClass('active');
+		$('#personal-link').removeClass('active');
 		$('#servicios-link').addClass('active');
 	})
 	$('#contacto-link').on('click', function(){
