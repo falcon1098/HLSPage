@@ -174,7 +174,8 @@
 		$('#azure-tab').addClass('active show');
 	})
 	$('#personal-link').on('click', function(){
-		$("#personal-collpase").collapse('show');
+		// $("#azure-collpase").collapse('show');
+		$("#personal-collapse").collapse('show');
 		$('.nav-link').removeClass('active');
 		$('.nav-link-2').removeClass('active');
 		$('#personal-link').addClass('active');
