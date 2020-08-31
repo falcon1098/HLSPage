@@ -10059,7 +10059,7 @@ textarea.form-control {
     height: 25px;
     margin-right: 40px;
   }
-.prin{
+.footer-title{
   text-align: center;
   margin-bottom: 50px;
   margin-top:50px ;
@@ -10067,12 +10067,6 @@ textarea.form-control {
   font-size: 30px;
   font-weight: 900;
 }
-.prinn{
-  text-align: center;
-  color: black;
-  font-size: 30px;
-}
-
 .center-text{
   text-align: center;
 }
@@ -10094,17 +10088,7 @@ textarea.form-control {
   background: linear-gradient(to right, rgb(127, 165, 206), rgb(16,38,106)); 
   height: 50px;
 }
-.mod{
-  width: 152px; 
-  height: 54px;
-  margin-right: 2%;
-}
-.modd{
-  width: 120px;
-    height: 45px;
-    margin-right: 2%;
-}
-.avatar{
+.your-testimony-title{
   width: 200px;
   height: 200px;
   background-size: 100px;
@@ -10139,7 +10123,7 @@ textarea.form-control {
   .subheading {
     line-height : 18px;
   }
-.estetica{
+.style-text-titles{
   font-weight:bold
 }
 .parallax{
@@ -10156,7 +10140,7 @@ textarea.form-control {
   background-color: #F1F3FC;
    width: 60px;
 }
-.tammovil{
+.strip-logos{
   width: 100%;
   /*display: inline-table;*/
 }
@@ -10197,12 +10181,12 @@ textarea.form-control {
   color: #00CBB3;
   text-transform: uppercase;
 }
-.disenew{
+.new-design{
   padding: 0px !important;
   padding-bottom: 0rem !important;
   margin-bottom: 0rem !important;
 }
-.estiloss{
+.design-strip-logos{
   display: flex;
   align-items: center;
 }
@@ -10252,7 +10236,7 @@ textarea.form-control {
   .displaymarcell{
     display: none;
   }
-  .ondas{
+  .wavy{
     display: block !important;
   }
   .ftco-section-2{
