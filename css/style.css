@@ -8083,10 +8083,10 @@ h1, h2, h3, h4, h5,
     .wa-icon{
       margin-right: 0 !important;
       content: url('../rrss/Whatsapp\ blanco.png') !important;
-      margin-bottom: 300px;
+      margin-bottom: 10000%;
     }
-    .comoyoquiera3{
-      margin-top: 150px;
+    .navstyle3{
+      margin-top: 160%;
     }
   }
   .ftco-navbar-light .container {
@@ -8122,6 +8122,7 @@ h1, h2, h3, h4, h5,
       margin-right: 0;
       /*align-items: normal !important;*/ 
       background-color: #4F89C8;
+     
     }
      }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -8181,7 +8182,7 @@ h1, h2, h3, h4, h5,
         color: #4F5154  !important;
         
       }
-      .comoyoquiera2{
+      .navstyle2{
         color: #4F5154 !important;
       }
       .ftco-navbar-light.scrolled {
@@ -10049,11 +10050,11 @@ textarea.form-control {
   .newss{
     color: #fff;
   }
-  .milll{
+  .size-icons{
     width: 40px;
     height: 40px;
   }
-  .milllone{
+  .size-iconsone{
     width: 25px;
     height: 25px;
     margin-right: 40px;
