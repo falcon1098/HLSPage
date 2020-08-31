@@ -1560,16 +1560,6 @@ pre {
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
-@media (max-width: 991.98px) {
-  .table-responsive-lg {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar; }
-    .table-responsive-lg > .table-bordered {
-      border: 0; } }
-
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     display: block;
@@ -3611,13 +3601,6 @@ input[type="button"].btn-block {
       flex-basis: auto; }
     .navbar-expand-md .navbar-toggler {
       display: none; } }
-
-@media (max-width: 991.98px) {
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    padding-right: 0;
-    padding-left: 0; } }
-
 @media (min-width: 992px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
@@ -3650,7 +3633,6 @@ input[type="button"].btn-block {
     .navbar-expand-lg .navbar-toggler {
       display: none; } 
     }
-
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
@@ -8113,17 +8095,27 @@ h1, h2, h3, h4, h5,
       -webkit-text-fill-color: transparent; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
       color: #000000 !important; }
-    @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #fff; } 
+  .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+  .table-responsive-lg > .table-bordered {
+      border: 0; } 
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+      padding-right: 0;
+      padding-left: 0; }       
+
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 0px;
       margin-right: 0;
       /*align-items: normal !important;*/ 
-      background-color: #4F89C8;
-     
-    }
+      background-color: #4F89C8;}
      }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 17px;
