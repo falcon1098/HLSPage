@@ -10172,6 +10172,7 @@ textarea.form-control {
   letter-spacing: 6px;
   color: #00CBB3;
   text-transform: uppercase;
+  font-weight: 100;
 }
 .new-design{
   padding: 0px !important;
