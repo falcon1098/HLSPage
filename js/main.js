@@ -155,7 +155,7 @@
 	};
 	carousel();
 	$('#servicios-link').on('click', function(){
-		$('#contacto-link').removeClass('active');
+		$('#fabrica-link').removeClass('active');
 		$('#azure-link').removeClass('active');
 		$('#personal-link').removeClass('active');
 		$('#servicios-link').addClass('active');
@@ -184,10 +184,14 @@
 		$('#personal-tab').addClass('active show');
 	})
 	$('#fabrica-link').on('click', function(){
+		$("#fabrica-collapse").collapse('show');
+		$('.nav-link').removeClass('active');
 		$('.nav-link-2').removeClass('active');
+		$('#fabrica-link').addClass('active');
 		$('#fabrica-nav-link').addClass('active');
 		$('.tab-pane').removeClass('active show');
 		$('#fabrica-tab').addClass('active show');
+
 	})
 	$('#data-link').on('click', function(){
 		$('.nav-link-2').removeClass('active');

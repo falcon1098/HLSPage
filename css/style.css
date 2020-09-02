@@ -457,7 +457,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 90%; } }
 
 .container-fluid {
   width: 100%;
@@ -8184,6 +8184,9 @@ h1, h2, h3, h4, h5,
       color: #fff !important;
       letter-spacing: 2px !important;
       font-weight: 900 !important;
+      margin-top: 158px;
+      margin-left: 0px !important ;
+
     }
   }
 
@@ -8510,14 +8513,17 @@ h1, h2, h3, h4, h5,
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 30px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: #666666;
-          font-weight: 400; }
+          font-weight: 400;
+          margin-left: -50px;
+        }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text p {
               color: rgba(255, 255, 255, 0.7);
-              font-size: 23px; } }
+              font-size: 19px; 
+              margin-left: 0px;} }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
       bottom: 60px !important;
@@ -9199,7 +9205,9 @@ textarea.form-control {
     color: #fff;
     /*margin-bottom: 40px;*/
     font-size: 22px;
-    font-weight: 600; }
+    font-weight: 600; 
+    margin-left: 4px;
+  }
   .ftco-footer .ftco-footer-widget ul li {
     margin-bottom: 10px; }
     .ftco-footer .ftco-footer-widget ul li a {
@@ -9317,7 +9325,8 @@ textarea.form-control {
       font-size: 28px; } }
 
 .heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.9) !important; }
+  color: rgba(255, 255, 255, 0.9) !important; 
+}
 
 .heading-section.heading-section-white h2 {
   color: white; 
@@ -10024,7 +10033,7 @@ textarea.form-control {
     color: white; }
   .tab-row > .col-md-8{
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
   }
   @media(min-width: 1050px) {
     .tab-row > .col-md-8{
@@ -10178,6 +10187,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: 100;
   text-align: initial;
+  margin-left: -50px;
 }
 .new-design{
   padding: 0px !important;
@@ -10264,6 +10274,8 @@ textarea.form-control {
 @media (max-width: 767px){
 .subheading {
   background-color: #fff !important;
+  margin-top: 29px;
+  margin-left: -35px;
 }
 }
 @media (max-width: 991.98px) {
